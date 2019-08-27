@@ -1,0 +1,15 @@
+type User {
+  name: String!
+  email: String!
+}
+
+input UserFilter {
+  id: Int
+  email: String
+}
+
+input UserData {
+  name: String!
+  email: String!
+  password: String!
+}

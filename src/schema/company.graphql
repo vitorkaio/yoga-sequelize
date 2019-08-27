@@ -1,0 +1,11 @@
+type Company {
+  name: String!
+}
+
+input CompanyFilter {
+  name: String!
+}
+
+input CompanyData {
+  name: String!
+}

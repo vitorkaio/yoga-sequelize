@@ -1,0 +1,28 @@
+{
+  "name": "yoga-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "start": "npm run build && babel-node ./dist/app.js",
+    "dev": "nodemon --ext js,graphql --exec babel-node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.1.0",
+    "faker": "^4.1.0",
+    "graphql-import": "^0.7.1",
+    "graphql-yoga": "^1.18.2",
+    "jwt-simple": "^0.5.6",
+    "sequelize": "^5.16.0",
+    "sqlite3": "^4.1.0"
+  }
+}

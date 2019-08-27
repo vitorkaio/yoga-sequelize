@@ -1,0 +1,4 @@
+type Query {
+  user: User
+  companys: [Company!]
+}

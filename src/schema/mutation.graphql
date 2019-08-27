@@ -1,0 +1,4 @@
+type Mutation {
+  createUser(data: UserData!): User
+  createCompany(data: CompanyData): Company
+}
